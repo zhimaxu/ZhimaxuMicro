@@ -1,12 +1,52 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{F4BE8A91-E29F-49F9-81F4-6CCE35258505}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zhimaxu.Test", "Zhimaxu.Test", "{F4BE8A91-E29F-49F9-81F4-6CCE35258505}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zhimaxu.Service", "Zhimaxu.Service", "{D8CE17C8-544D-49DB-9089-43A9035EFCC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhimaxu.TestServiceA", "Zhimaxu.Test\Zhimaxu.TestServiceA\Zhimaxu.TestServiceA.csproj", "{3C737AE8-86A3-44D7-B9B5-ED740680B328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhimaxu.TestServiceB", "Zhimaxu.Test\Zhimaxu.TestServiceB\Zhimaxu.TestServiceB.csproj", "{D5ED1474-5980-45C2-8295-84675A12155A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zhimaxu.Gateway", "Zhimaxu.Gateway", "{0D89C6F0-372E-482B-94A0-34D6BDCA90DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhimaxu.Gateway.Nacos", "Zhimaxu.Gateway\Zhimaxu.Gateway.Nacos\Zhimaxu.Gateway.Nacos.csproj", "{3EAF87C4-6255-4ED4-B4E1-265D8B1DB485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhimaxu.TestDocker", "Zhimaxu.Test\Zhimaxu.TestDocker\Zhimaxu.TestDocker.csproj", "{0421A81A-BB8D-4ED0-838A-2E9C0A5C9EA9}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C737AE8-86A3-44D7-B9B5-ED740680B328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C737AE8-86A3-44D7-B9B5-ED740680B328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C737AE8-86A3-44D7-B9B5-ED740680B328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C737AE8-86A3-44D7-B9B5-ED740680B328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5ED1474-5980-45C2-8295-84675A12155A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5ED1474-5980-45C2-8295-84675A12155A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5ED1474-5980-45C2-8295-84675A12155A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5ED1474-5980-45C2-8295-84675A12155A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAF87C4-6255-4ED4-B4E1-265D8B1DB485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAF87C4-6255-4ED4-B4E1-265D8B1DB485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAF87C4-6255-4ED4-B4E1-265D8B1DB485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAF87C4-6255-4ED4-B4E1-265D8B1DB485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0421A81A-BB8D-4ED0-838A-2E9C0A5C9EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0421A81A-BB8D-4ED0-838A-2E9C0A5C9EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0421A81A-BB8D-4ED0-838A-2E9C0A5C9EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0421A81A-BB8D-4ED0-838A-2E9C0A5C9EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C737AE8-86A3-44D7-B9B5-ED740680B328} = {F4BE8A91-E29F-49F9-81F4-6CCE35258505}
+		{D5ED1474-5980-45C2-8295-84675A12155A} = {F4BE8A91-E29F-49F9-81F4-6CCE35258505}
+		{3EAF87C4-6255-4ED4-B4E1-265D8B1DB485} = {0D89C6F0-372E-482B-94A0-34D6BDCA90DF}
+		{0421A81A-BB8D-4ED0-838A-2E9C0A5C9EA9} = {F4BE8A91-E29F-49F9-81F4-6CCE35258505}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,6 @@
+@Zhimaxu.Gateway.Nacos_HostAddress = http://localhost:5244
+
+GET {{Zhimaxu.Gateway.Nacos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

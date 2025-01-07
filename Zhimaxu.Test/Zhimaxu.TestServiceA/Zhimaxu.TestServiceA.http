@@ -1,0 +1,6 @@
+@Zhimaxu.TestServiceA_HostAddress = http://localhost:5036
+
+GET {{Zhimaxu.TestServiceA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
