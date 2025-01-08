@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhimaxu.Gateway.Nacos", "Zh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhimaxu.TestDocker", "Zhimaxu.Test\Zhimaxu.TestDocker\Zhimaxu.TestDocker.csproj", "{0421A81A-BB8D-4ED0-838A-2E9C0A5C9EA9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zhimaxu.Web", "Zhimaxu.Web", "{617FAF56-8C5F-4BFF-97BF-BDBDC88ACFAF}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "zhimaxu.web.blog", "Zhimaxu.Web\Zhimaxu.Web.Blog\zhimaxu.web.blog.esproj", "{B3A6E7E7-ADD7-4A31-AD25-6DFA487BF04E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,12 @@ Global
 		{0421A81A-BB8D-4ED0-838A-2E9C0A5C9EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0421A81A-BB8D-4ED0-838A-2E9C0A5C9EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0421A81A-BB8D-4ED0-838A-2E9C0A5C9EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A6E7E7-ADD7-4A31-AD25-6DFA487BF04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A6E7E7-ADD7-4A31-AD25-6DFA487BF04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A6E7E7-ADD7-4A31-AD25-6DFA487BF04E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B3A6E7E7-ADD7-4A31-AD25-6DFA487BF04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A6E7E7-ADD7-4A31-AD25-6DFA487BF04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A6E7E7-ADD7-4A31-AD25-6DFA487BF04E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +58,6 @@ Global
 		{D5ED1474-5980-45C2-8295-84675A12155A} = {F4BE8A91-E29F-49F9-81F4-6CCE35258505}
 		{3EAF87C4-6255-4ED4-B4E1-265D8B1DB485} = {0D89C6F0-372E-482B-94A0-34D6BDCA90DF}
 		{0421A81A-BB8D-4ED0-838A-2E9C0A5C9EA9} = {F4BE8A91-E29F-49F9-81F4-6CCE35258505}
+		{B3A6E7E7-ADD7-4A31-AD25-6DFA487BF04E} = {617FAF56-8C5F-4BFF-97BF-BDBDC88ACFAF}
 	EndGlobalSection
 EndGlobal

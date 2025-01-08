@@ -20,3 +20,34 @@
 >>> 注意2：本实例中容器镜像替换为实际使用中的镜像。
 
 
+## 子仓库-前端页面
+1.添加Git子模块：在主仓库中执行以下命令添加Git子模块：
+``` cmd
+git submodule add [仓库地址] [目录路径]
+```
+2.初始化Git子模块：在主仓库中执行以下命令初始化Git子模块：
+``` cmd
+git submodule init
+```
+3.在克隆主仓库后，初始化子仓库：
+``` cmd
+单个子模块
+git submodule update
+多个子模块
+git submodule update --init --recursive
+```
+4.子仓库未同步最新版本
+在子仓库目录中执行 git pull，然后提交到主仓库
+```cmd
+cd [子仓库目录路径]
+git pull origin main
+cd ../../
+git commit -m "Update submodule"
+```
+
+
+tips: 如果子模块中还包含子模块，可以递归执行以下命令来初始化并更新所有嵌套的子模块
+```cmd
+git submodule foreach --recursive git submodule init
+git submodule foreach --recursive git submodule update
+```
