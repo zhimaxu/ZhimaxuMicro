@@ -1,0 +1,3 @@
+[submodule "Zhimaxu.Web/Zhimaxu.Web.Blog"]
+	path = Zhimaxu.Web/Zhimaxu.Web.Blog
+	url = https://github.com/zhimaxu/ZhimaxuMicro.Blog.git
